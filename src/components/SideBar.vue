@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       items: [
-        { title: "top", path: "/resume39/top" },
+        { title: "top", path: "/resume39" },
         { title: "profile", path: "/resume39/profile" },
         { title: "skills", path: "/resume39/skills" },
         { title: "outputs", path: "/resume39/outputs" },
