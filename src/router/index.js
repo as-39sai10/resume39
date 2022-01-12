@@ -14,17 +14,17 @@ const routes = [
     component: Home
   },
   {
-    path: '/resume39//profile',
+    path: '/resume39/profile',
     name: 'profile',
     component: Profile
   },
   {
-    path: '/resume39//Skills',
+    path: '/resume39/Skills',
     name: 'Skills',
     component: Skills
   },
   {
-    path: '/resume39//outputs',
+    path: '/resume39/outputs',
     name: 'outputs',
     component: OutPut
   }
