@@ -1,6 +1,5 @@
 <template>
   <div class="skills">
-    <h1 class="skills-page-title">skills</h1>
     <div class="item--list">
       <div class="content" v-for="(item, index) in items" :key="index">
         <tr class="row">

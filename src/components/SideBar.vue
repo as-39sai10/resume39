@@ -4,8 +4,8 @@
     <div class="my-image-div">
       <img class="my-image" src="../assets/computer_programming_man.png" />
     </div>
-    <div>NAME: y.s</div>
-    <div>AGE: 20's</div>
+    <div>name: y.s</div>
+    <div>age: 20's</div>
     <div>residence: tochigi</div>
     <ul class="side">
       <li class="side-list" v-for="(item, index) in items" :key="index">
