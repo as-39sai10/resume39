@@ -22,10 +22,10 @@ export default {
   data() {
     return {
       items: [
-        { title: "top", path: "/" },
-        { title: "profile", path: "/profile" },
-        { title: "skills", path: "/skills" },
-        { title: "outputs", path: "/outputs" },
+        { title: "top", path: "/resume39/top" },
+        { title: "profile", path: "/resume39/profile" },
+        { title: "skills", path: "/resume39/skills" },
+        { title: "outputs", path: "/resume39/outputs" },
       ],
       open: false,
     };
