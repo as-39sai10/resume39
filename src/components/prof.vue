@@ -1,6 +1,6 @@
 <template>
   <div class="profile">
-    <div class="profile-page-title">ここはプロファイルをひょうじする</div>
+    <p class="profile-page-title">ここはプロファイルをひょうじする</p>
   </div>
 </template>
 

@@ -1,9 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import {Tabs, Tab} from 'vue-tabs-component';
+Vue.component('tabs', Tabs);
+Vue.component('tab', Tab);
 import Home from '../views/Home.vue'
-import OutPut from '../components/Out' 
-import Profile from '../components/Profile'
-import Skills from '../components/Skills'
+import OutPut from '../components/outputs' 
+import Profile from '../components/prof'
+import Skills from '../components/skill'
 
 Vue.use(VueRouter)
 

@@ -7,13 +7,13 @@
     <div>name: y.s</div>
     <div>age: 20's</div>
     <div>residence: tochigi</div>
-    <ul class="side">
+    <!-- <ul class="side">
       <li class="side-list" v-for="(item, index) in items" :key="index">
         <router-link class="side-list-text" v-bind:to="item.path">
           {{ item.title }}
         </router-link>
       </li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 <script>
