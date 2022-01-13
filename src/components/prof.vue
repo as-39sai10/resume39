@@ -1,6 +1,6 @@
 <template>
   <div class="profile">
-    <p class="profile-page-title">ここはプロファイルをひょうじする</p>
+    <div class="profile-page-title">ここはプロフィールをひょうじする</div>
   </div>
 </template>
 
@@ -21,6 +21,6 @@ export default {
 }
 .profile {
   height: 60rem;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 </style>

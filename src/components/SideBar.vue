@@ -43,10 +43,11 @@ export default {
   padding-top: 20px;
 }
 .sidebar-container {
-  width: 15%;
+  width: 250px;
   height: 60rem;
   background: #f0f8ff;
   float: left;
+  display: inline;
 }
 .sidebar-container h1 {
   padding: 20px 0;

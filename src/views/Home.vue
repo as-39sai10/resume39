@@ -1,25 +1,25 @@
 <template>
   <div class="home">
-    <tabs :options="{ useUrlFragment: false, defaultTabHash: 'tab1'}">
-            <tab id="tab1" name="タブ１">
-                First tab content
-            </tab>
-            <tab id="tab2" name="タブ２">
-                Second tab content
-            </tab>
-            <tab id="tab3" name="タブ３">
-                Third tab content
-            </tab>
-        </tabs>
+    <tabs :options="{ useUrlFragment: false, defaultTabHash: 'tab1' }">
+      <tab id="tab1" name="prof"> <prof></prof>> </tab>
+      <tab id="tab2" name="skill"> <skill></skill>> </tab>
+      <tab id="tab3" name="out"> <outputs></outputs>> </tab>
+    </tabs>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+import prof from "../components/prof.vue";
+import outputs from "../components/outputs.vue";
+import skill from "../components/skill.vue";
 
 export default {
   name: "Home",
-  components: {},
+  components: {
+    prof,
+    outputs,
+    skill,
+  },
 };
 </script>
 
@@ -32,10 +32,11 @@ export default {
 .home {
   height: 60rem;
   background-color: #f5f5f5;
+  margin-left: 250px;
 }
 
 .tabs-component {
-  margin: 4em 0;
+  margin-top: 0;
 }
 .tabs-component-tabs {
   border: solid 1px #ddd;
@@ -76,9 +77,9 @@ export default {
     background-color: #fff;
     border: solid 1px #ddd;
     border-radius: 3px 3px 0 0;
-    margin-right: .5em;
+    margin-right: 0.5em;
     transform: translateY(2px);
-    transition: transform .3s ease;
+    transition: transform 0.3s ease;
   }
   .tabs-component-tab.is-active {
     border-bottom: solid 1px #fff;
@@ -90,11 +91,10 @@ export default {
   align-items: center;
   color: inherit;
   display: flex;
-  padding: .75em 1em;
+  padding: 0.5em 1em;
   text-decoration: none;
 }
 .tabs-component-panels {
-  padding: 4em 0;
 }
 @media (min-width: 700px) {
   .tabs-component-panels {
@@ -102,8 +102,7 @@ export default {
     background-color: #fff;
     border: solid 1px #ddd;
     border-radius: 0 6px 6px 6px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .05);
-    padding: 4em 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   }
 }
 </style>

@@ -2,9 +2,9 @@
   <div class="skills">
     <div class="item--list">
       <div class="content" v-for="(item, index) in items" :key="index">
-        <tr class="row">
+        <tr  class="row">
           <th class="item-title">{{ item.title }}</th>
-          <th class="item-value">{{ item.value }}</th>
+          <td class="item-value">{{ item.value }}</td>
         </tr>
       </div>
     </div>
@@ -40,12 +40,14 @@ export default {
 }
 .skills {
   height: 60rem;
-  background-color: #f5f5f5;
+  background-color: #fff;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 div.content {
-  display: inline-block;
+  /* display: inline-block;
   margin: 5px;
-  width: 15%;
+  width: 15%; */
  
 }
 .row {
@@ -56,10 +58,12 @@ div.content {
   
 }
 .item-value {
-  padding-left: 20px;
-  
+  width: 80px;
+  border: .5px #000 solid;
 }
 .item-title {
-  padding-bottom: 10px;
+  text-align: center;  
+  width: 80px;
+  border: .25px #000 solid;
 }
 </style>
