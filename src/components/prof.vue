@@ -22,5 +22,7 @@ export default {
 .profile {
   height: 90vh;
   background-color: #ffffff;
+  overflow: hidden;
 }
+
 </style>
