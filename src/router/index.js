@@ -11,7 +11,8 @@ const routes = [
   {
     path: '/resume39',
     name: 'home',
-    component: Home
+    component: Home,
+    meta: { title: 'resume39' }, 
   },
   {
     path: '/resume39/profile',
