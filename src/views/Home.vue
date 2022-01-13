@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     <tabs :options="{ useUrlFragment: false, defaultTabHash: 'tab1' }">
-      <tab id="tab1" name="prof"> <prof></prof>> </tab>
-      <tab id="tab2" name="skill"> <skill></skill>> </tab>
-      <tab id="tab3" name="out"> <outputs></outputs>> </tab>
+      <tab id="tab1" name="prof"> <prof></prof> </tab>
+      <tab id="tab2" name="skill"> <skill></skill> </tab>
+      <tab id="tab3" name="out"> <outputs></outputs> </tab>
     </tabs>
   </div>
 </template>
@@ -33,6 +33,8 @@ export default {
   height: 60rem;
   background-color: #f5f5f5;
   margin-left: 250px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .tabs-component {
@@ -95,6 +97,7 @@ export default {
   text-decoration: none;
 }
 .tabs-component-panels {
+  height: 90vh;
 }
 @media (min-width: 700px) {
   .tabs-component-panels {

@@ -20,7 +20,7 @@ export default {
   float: left;
 }
 .profile {
-  height: 60rem;
+  height: 90vh;
   background-color: #ffffff;
 }
 </style>
