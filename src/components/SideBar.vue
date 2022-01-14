@@ -44,7 +44,7 @@ export default {
 }
 .sidebar-container {
   width: 250px;
-  height: 95vh;
+  height: 100vh;
   background: #f0f8ff;
   float: left;
   display: inline;

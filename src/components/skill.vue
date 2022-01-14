@@ -40,7 +40,7 @@ export default {
 }
 .skills {
   height: 60rem;
-  background-color: #fff;
+  background-color: #f5f5f5;
   margin-top: 5px;
   margin-left: 5px;
 }

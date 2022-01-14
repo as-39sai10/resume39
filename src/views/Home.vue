@@ -41,12 +41,13 @@ export default {
 .home {
   height: 60rem;
   background-color: #fff;
-  margin-left: 260px;
+  margin-left: 250px;
   margin-top: 0;
   margin-bottom: 0;
 }
 .el-tabs {
-  margin-left: 260px;
+  margin-left: 250px;
+  background-color: #f5f5f5;
 }
 
 

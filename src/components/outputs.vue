@@ -26,7 +26,7 @@ export default {
   font-weight: bold;
 }
 .output {
-  height: 60rem;
+  height: 90vh;;
   background-color: #f5f5f5;
 } 
 div.output {
