@@ -1,3 +1,6 @@
 .el-tabs__item {    
     font-size: 19px ;
 }
+.el-tabs__nav-scroll {
+    padding-left: 5px;
+}

@@ -39,7 +39,7 @@ export default {
   display: table;
 }
 .skills {
-  height: 60rem;
+  height: 95vh;
   background-color: #f5f5f5;
   margin-top: 5px;
   margin-left: 5px;

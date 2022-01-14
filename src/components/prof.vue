@@ -20,7 +20,7 @@ export default {
   float: left;
 }
 .profile {
-  height: 90vh;
+  height: 95vh;
   background-color: #f5f5f5;
   overflow: hidden;
 }
