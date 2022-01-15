@@ -47,7 +47,7 @@ export default {
 }
 .el-tabs {
   margin-left: 250px;
-  background-color: #f5f5f5;
+  background-color: #f3f3f3;
 }
 
 

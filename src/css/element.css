@@ -4,3 +4,9 @@
 .el-tabs__nav-scroll {
     padding-left: 5px;
 }
+.el-rate {
+    width: 150px;
+}
+.el-card__header{
+    padding-left: 0;
+}

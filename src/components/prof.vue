@@ -21,7 +21,7 @@ export default {
 }
 .profile {
   height: 95vh;
-  background-color: #f5f5f5;
+  background-color: #f3f3f3;
   overflow: hidden;
 }
 

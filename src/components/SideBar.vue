@@ -4,9 +4,12 @@
     <div class="my-image-div">
       <img class="my-image" src="../assets/computer_programming_man.png" />
     </div>
-    <div>name: y.s</div>
-    <div>age: 20's</div>
-    <div>residence: tochigi</div>
+    <div>
+      <i class="el-icon-s-custom"><span> :y.s</span></i>
+    </div>
+    <div>
+      <i class="el-icon-location"><span> :tochigi</span></i>
+    </div>
     <!-- <ul class="side">
       <li class="side-list" v-for="(item, index) in items" :key="index">
         <router-link class="side-list-text" v-bind:to="item.path">
@@ -45,7 +48,7 @@ export default {
 .sidebar-container {
   width: 250px;
   height: 100vh;
-  background: #f0f8ff;
+  background: #409EFF;
   float: left;
   display: inline;
 }
