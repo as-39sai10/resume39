@@ -24,19 +24,23 @@
     <div class="item-list2 row-possion">
       <el-card class="box-card">
         <div slot="header" class="clearfix">
-          <span>言語</span>
+          <span class="span-type">言語</span>
+          <span class="span-skill">スキル</span>
           <span class="span-year">経験年数</span>
         </div>
         <div class="content" v-for="(item, index) in items_lang" :key="index">
-          <h3 class="item-title">{{ item.title }}</h3>
+          <h3 class="item-title item-possion">{{ item.title }}</h3>
           <el-rate
             disabled
             v-model="item.value"
             disabled-void-color="#e9e9eb"
+            class="item-possion"
           ></el-rate>
+          <div class="experience-year item-possion">{{ item.year }}</div>
         </div>
       </el-card>
     </div>
+    
   </div>
 </template>
 
@@ -48,19 +52,20 @@ export default {
     return {
       items_os: [
         { title: "Windwos", value: 4, year: "5年以上" },
-        { title: "Mac", value: 3, year: "1年未満" },
-        { title: "Linux", value: 3, year: "2年以上" },
-        { title: "iOS", value: 2, year: "1年未満" },        
+        { title: "Linux", value: 3, year: "2年" },
+        { title: "Mac", value: 3, year: "1年" },        
+        { title: "iOS", value: 2, year: "1年" },        
       ],
       items_lang: [
-        { title: "C/C++", value: 2 },
-        { title: "C#", value: 3 },
-        { title: "VB.net", value: 4 },
-        { title: "Java", value: 3 },
-        { title: "HTML", value: 3 },
-        { title: "CSS", value: 3 },
-        { title: "JavaScript", value: 3 },
-        { title: "swift", value: 3 },
+        { title: "C/C++", value: 2, year: "1年" },
+        { title: "C#", value: 3, year: "1年" },
+        { title: "VB.net", value: 4, year: "2年" },
+        { title: "Java", value: 3, year: "1年" },
+        { title: "HTML", value: 3, year: "2年" },
+        { title: "CSS", value: 3, year: "2年" },
+        { title: "JavaScript", value: 3, year: "2年" },
+        { title: "Swift", value: 3, year: "1年" },
+        { title: "Delphi", value: 3, year: "1年" },
       ],
     };
   },

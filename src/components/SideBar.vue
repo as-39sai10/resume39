@@ -5,10 +5,10 @@
       <img class="my-image" src="../assets/computer_programming_man.png" />
     </div>
     <div>
-      <i class="el-icon-s-custom"><span> :y.s</span></i>
+      <i class="el-icon-s-custom"><span> y.s</span></i>
     </div>
     <div>
-      <i class="el-icon-location"><span> :tochigi</span></i>
+      <i class="el-icon-location"><span> tochigi</span></i>
     </div>
     <!-- <ul class="side">
       <li class="side-list" v-for="(item, index) in items" :key="index">
