@@ -50,7 +50,8 @@ export default {
   height: 100vh;
   background: #409EFF;
   float: left;
-  display: inline;
+  position: fixed;
+  z-index: 1;
 }
 .sidebar-container h1 {
   padding: 20px 0;

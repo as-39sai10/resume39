@@ -1,6 +1,6 @@
 <template>
   <div class="skills">
-    <div class="item-list2 row-possion">
+    <div class="item-list row-possion">
       <el-card class="box-card">
         <div slot="header" class="clearfix">
           <span class="span-type">OS</span>
@@ -41,6 +41,26 @@
       </el-card>
     </div>
     
+    <div class="item-list3 row-possion">
+      <el-card class="box-card">
+        <div slot="header" class="clearfix">
+          <span class="span-type">DB</span>
+          <span class="span-skill">スキル</span>
+          <span class="span-year">経験年数</span>
+        </div>
+        <div class="content" v-for="(item, index) in items_db" :key="index">
+          <h3 class="item-title item-possion">{{ item.title }}</h3>
+          <el-rate
+            disabled
+            v-model="item.value"
+            disabled-void-color="#e9e9eb"
+            class="item-possion"
+          ></el-rate>
+          <div class="experience-year item-possion">{{ item.year }}</div>
+        </div>
+      </el-card>
+    </div>
+
   </div>
 </template>
 
@@ -66,6 +86,11 @@ export default {
         { title: "JavaScript", value: 3, year: "2年" },
         { title: "Swift", value: 3, year: "1年" },
         { title: "Delphi", value: 3, year: "1年" },
+      ],
+      items_db: [
+        { title: "SQLsever", value: 3, year: "4年" },
+        { title: "Access", value: 2, year: "1年" },
+        { title: "PostgreSQL", value: 2, year: "1年" },        
       ],
     };
   },
@@ -96,12 +121,15 @@ export default {
 }
 .box-card {
   width: 450px;
+  height: 500px;
 }
 .row-possion {
   float: left;
+  margin-bottom: 10px;
 }
 .item-possion {
   float: left;
+
 }
 .content {
   padding-bottom: 10px;
@@ -109,6 +137,9 @@ export default {
   
 }
 .item-list2 {
+  margin-left: 10px;
+}
+.item-list3 {
   margin-left: 10px;
 }
 .item-value {
