@@ -1,6 +1,6 @@
 <template>
   <el-tabs v-model="activeName" @tab-click="handleClick">
-    <el-tab-pane label="prof" name="first"> <prof></prof> </el-tab-pane>
+    <el-tab-pane label="hist" name="first"> <hist></hist> </el-tab-pane>
     <span slot="label" class="fontClass">prof</span>
     <el-tab-pane label="skill" name="second"> <skill></skill> </el-tab-pane>
     <el-tab-pane label="outputs" name="third"><outputs></outputs> </el-tab-pane>
@@ -8,14 +8,14 @@
 </template>
 
 <script>
-import prof from "../components/prof.vue";
+import hist from "../components/hist.vue";
 import outputs from "../components/outputs.vue";
 import skill from "../components/skill.vue";
 
 export default {
   name: "Home",
   components: {
-    prof,
+    hist,
     outputs,
     skill,
   },

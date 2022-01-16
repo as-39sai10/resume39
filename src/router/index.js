@@ -5,7 +5,7 @@ Vue.component('tabs', Tabs);
 Vue.component('tab', Tab);
 import Home from '../views/Home.vue'
 import OutPut from '../components/outputs' 
-import Profile from '../components/prof'
+import Profile from '../components/hist'
 import Skills from '../components/skill'
 
 Vue.use(VueRouter)

@@ -151,7 +151,7 @@ export default {
   width: 150px;
   background-color: #fff;
 }
-.xperience-year {
-  width: 150px;
+.experience-year {
+  width: 80px;  
 }
 </style>

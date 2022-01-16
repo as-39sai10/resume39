@@ -7,6 +7,18 @@
 .el-rate {
     width: 150px;
 }
-.el-card__header{
+.el-card__header {
     padding-left: 0;
+    background-color: #fff !important;
+}
+.el-timeline-item__content  {
+    width: 500px;
+    padding-left: 25px;
+}
+.el-timeline-item__timestamp {
+    width: 150px;
+}
+.el-timeline-item__wrapper {
+    margin-left: 0px;
+    padding-left: 0px;
 }

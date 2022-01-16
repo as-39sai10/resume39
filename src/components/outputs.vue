@@ -38,9 +38,11 @@ div.content {
   display: inline-block;
   float: left;
   margin: 5px;
-  width: 30%;
+  width: 420px;
 }
-
+.content {
+  height: 300px;
+}
 h3 {
   color: white;
 }

@@ -1,0 +1,56 @@
+<template>
+  <div class="history">
+    <el-timeline>
+      <el-timeline-item
+        v-for="(hist, index) in items_hist"
+        :key="index"
+        :icon="hist.icon"
+        :type="hist.type"
+        :color="hist.color"
+        :size="hist.size"
+        :timestamp="hist.year"
+        placement="top"
+      >
+        <el-card>
+          <h4>{{ hist.society }}</h4>
+        </el-card>
+      </el-timeline-item>
+    </el-timeline>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "History",
+  components: {},
+  data() {
+    return {
+      items_hist: [
+        { society: "F社", 
+          value: 4, 
+          year: "2020/1 〜 在籍中", 
+          color: '#0bbd87' },
+        { society: "P社", 
+          value: 3, 
+          year: "2017/9 〜 2019/12" },
+        { society: "K社", 
+          value: 3, 
+          year: "2011/4 〜 2017/2" },        
+      ],
+    };
+  },
+};
+</script>
+
+<style >
+.profile-page-title {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+}
+.history {
+  height: 95vh;
+  background-color: #f3f3f3;
+  overflow: hidden;
+}
+</style>
