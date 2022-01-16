@@ -1,7 +1,7 @@
 <template>
   <div class="history">
     <el-timeline>
-      <el-timeline-item
+      <el-timeline-item class="hist-ch"
         v-for="(hist, index) in items_hist"
         :key="index"
         :icon="hist.icon"
@@ -11,8 +11,11 @@
         :timestamp="hist.year"
         placement="top"
       >
-        <el-card>
-          <h4>{{ hist.society }}</h4>
+        <el-card class="hist-box">
+          <h3>{{ hist.society }}</h3>
+        </el-card>
+        <el-card class="hist-box2">
+          <div>{{ hist.text }}</div>
         </el-card>
       </el-timeline-item>
     </el-timeline>
@@ -26,16 +29,15 @@ export default {
   data() {
     return {
       items_hist: [
-        { society: "F社", 
-          value: 4, 
-          year: "2020/1 〜 在籍中", 
-          color: '#0bbd87' },
-        { society: "P社", 
-          value: 3, 
-          year: "2017/9 〜 2019/12" },
-        { society: "K社", 
-          value: 3, 
-          year: "2011/4 〜 2017/2" },        
+        {
+          society: "F",
+          value: 4,
+          year: "2020/1 〜 在籍中",
+          text: "アイウエオアイウエオアイウエオアイウエオアイウエオアイウエオアイウエオ",
+          color: "#0bbd87",
+        },
+        { society: "P", value: 3, year: "2017/9 〜 2019/12" },
+        { society: "K", value: 3, year: "2011/4 〜 2017/2" },
       ],
     };
   },
@@ -52,5 +54,18 @@ export default {
   height: 95vh;
   background-color: #f3f3f3;
   overflow: hidden;
+}
+.hist-ch {
+  
+}
+.hist-box {
+  
+  width: 200px;
+  height: 120px;
+  margin-right: 0px;
+}
+.hist-box2 {  
+  width: 600px;
+  height: 120px;
 }
 </style>

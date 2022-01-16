@@ -11,9 +11,15 @@
     padding-left: 0;
     background-color: #fff !important;
 }
-.el-timeline-item__content  {
-    width: 500px;
+.el-timeline-item__content  {    
     padding-left: 25px;
+    display: flex;
+}
+.el-card__body {
+    padding: 0;
+}
+.el-timeline {
+    height: 85vh;
 }
 .el-timeline-item__timestamp {
     width: 150px;
