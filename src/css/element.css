@@ -2,7 +2,8 @@
     font-size: 19px ;
 }
 .el-tabs__nav-scroll {
-    padding-left: 5px;
+    padding-left: 20px;
+    margin-top: 5px;
 }
 .el-rate {
     width: 150px;
