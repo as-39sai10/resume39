@@ -132,7 +132,7 @@ export default {
 
 }
 .content {
-  padding-bottom: 10px;
+  padding-top: 15px;
   height: 30px;
   
 }
